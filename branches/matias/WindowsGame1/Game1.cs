@@ -49,7 +49,7 @@ namespace WindowsGame1
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            planeta = new Planeta(Content.Load<Model>(""), graphics);
+            planeta = new Planeta(Content.Load<Model>("MODELOS/planeta"), graphics);
             // TODO: use this.Content to load your game content here
         }
 
