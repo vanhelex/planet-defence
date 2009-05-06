@@ -15,19 +15,24 @@ namespace WindowsGame1.LOGICA
     class Planeta:Dibujable
     {
         Posicion[][] posiblesRutas;
-        Model Modelo;
+
 
         public Planeta(Model m,GraphicsDeviceManager g)
         {
             Modelo = m;
+            pos = new Vector3(0.0f, 0.0f, 0.0f);
+            escala = 0.9f;
+            rotacion = new Vector3(0.0f, 0.0f, 0.0f);
             float aspectRatio = (float)g.GraphicsDevice.Viewport.Width / g.GraphicsDevice.Viewport.Height;
 
             foreach (ModelMesh mesh in Modelo.Meshes)
                 foreach (BasicEffect effect in mesh.Effects)
                 {
-                    effect.World = Matrix.CreateScale(0.9f);
-                    //effect.World*= Matrix.CreateTranslation(0.0f, 0.0f, 0.0f);
-                    
+                    effect.World = Matrix.CreateScale(escala);
+                    effect.World *= Matrix.CreateTranslation(pos);
+                    effect.World *= Matrix.CreateRotationX(rotacion.X);
+                    effect.World *= Matrix.CreateRotationX(rotacion.Y);
+                    effect.World *= Matrix.CreateRotationX(rotacion.Z);
                     effect.Projection = Matrix.CreatePerspectiveFieldOfView(
                                MathHelper.ToRadians(45.0f),
                               aspectRatio, 1.0f, 10.0f);
