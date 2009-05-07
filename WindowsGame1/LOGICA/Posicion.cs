@@ -2,37 +2,47 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Microsoft.Xna.Framework;
 
 namespace WindowsGame1.LOGICA
 {
     class Posicion
     {
-        float theta;
-        float phi;
-        float r;
+        Vector3 pos;
         public Posicion()
         {
-            theta = 0.0f;
-            phi = 0.0f;
-            r = 0.0f;
+            pos.X = 0.0f;
+            pos.Y = 0.0f;
+            pos.Z = 0.0f;
         }
         public Posicion(float ang_theta,float ang_phi,float radio)
         {
-            theta = ang_theta;
-            phi = ang_phi;
-            r = radio;
+            pos.X = ang_theta;
+            pos.Y = ang_phi;
+            pos.Z = radio;
         }
-
+     
     #region accesores
+        public Vector3 getPos
+        {
+            get
+            {
+                return pos;
+            }
+            set
+            {
+                pos = value;
+            }
+        }
         public float Theta 
         {
             get
             {
-                return theta; 
+                return pos.X; 
             }
             set
             {
-                theta = value;
+                pos.X = value;
             }
         }
 
@@ -40,11 +50,11 @@ namespace WindowsGame1.LOGICA
         {
             get
             {
-                return phi;
+                return pos.Y;
             }
             set
             {
-                phi = value;
+                pos.Y = value;
             }
         }
 
@@ -52,11 +62,11 @@ namespace WindowsGame1.LOGICA
         {
             get
             {
-                return r;
+                return pos.Z;
             }
             set
             {
-                r = value;
+                pos.Z = value;
             }
         }
 

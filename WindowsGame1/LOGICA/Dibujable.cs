@@ -11,9 +11,9 @@ namespace WindowsGame1.LOGICA
     abstract class Dibujable 
     {
         public Model Modelo;
-        public Vector3 pos;
+        public Posicion pos;
         public float escala;
         public Vector3 rotacion;
-        abstract public void paint();
+        abstract public void paint(GraphicsDeviceManager g);
     }
 }
