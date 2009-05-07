@@ -3,7 +3,7 @@
   <Asset Type="Graphics:NodeContent">
     <Name>blend_root</Name>
     <Identity>
-      <SourceFilename>C:\xna\Proyecto Planet Defence\planet-defence\branches\matias\WindowsGame1\Content\MODELOS\planeta.fbx</SourceFilename>
+      <SourceFilename>C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\Content\MODELOS\planeta.fbx</SourceFilename>
       <SourceTool>FbxImporter</SourceTool>
     </Identity>
     <Transform>100 0 0 0 0 100 0 0 0 0 100 0 0 0 0 1</Transform>
@@ -31,7 +31,7 @@
     <Resource ID="#Resource1" Type="Graphics:BasicMaterialContent">
       <Name>Material.002</Name>
       <Identity>
-        <SourceFilename>C:\xna\Proyecto Planet Defence\planet-defence\branches\matias\WindowsGame1\Content\MODELOS\planeta.fbx</SourceFilename>
+        <SourceFilename>C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\Content\MODELOS\planeta.fbx</SourceFilename>
         <SourceTool>FbxImporter</SourceTool>
       </Identity>
       <OpaqueData>

@@ -7,11 +7,24 @@
       <Importer>FbxImporter</Importer>
       <Processor>ModelProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\xna\Proyecto Planet Defence\planet-defence\branches\matias\WindowsGame1\bin\x86\Debug\Content\MODELOS\planeta.xnb</Output>
-      <Time>2009-05-06T18:16:37.140625-04:00</Time>
+      <Output>C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\bin\x86\Debug\Content\MODELOS\planeta.xnb</Output>
+      <Time>2009-05-06T20:22:33.171875-04:00</Time>
       <Dependency>
         <Key>obj\x86\Debug\MODELOS\planeta_0.xml</Key>
-        <Value>2009-05-06T18:17:14.453125-04:00</Value>
+        <Value>2009-05-06T21:12:19.984375-04:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>MODELOS\Cube.X</Source>
+      <Name>MODELOS\Cube</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\bin\x86\Debug\Content\MODELOS\Cube.xnb</Output>
+      <Time>2009-05-06T20:50:49.515625-04:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\MODELOS\Cube_0.xml</Key>
+        <Value>2009-05-06T21:12:21.90625-04:00</Value>
       </Dependency>
     </Item>
     <Item>
@@ -19,17 +32,24 @@
       <Importer>FbxImporter</Importer>
       <Options>IntermediateFile, DontCacheImportedData</Options>
       <Output>obj\x86\Debug\MODELOS\planeta_0.xml</Output>
-      <Time>2009-05-06T18:16:37.140625-04:00</Time>
+      <Time>2009-05-06T20:22:33.171875-04:00</Time>
+    </Item>
+    <Item>
+      <Source>MODELOS\Cube.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\MODELOS\Cube_0.xml</Output>
+      <Time>2009-05-06T20:50:49.515625-04:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\xna\Proyecto Planet Defence\planet-defence\branches\matias\WindowsGame1\Content\</RootDirectory>
-      <LoggerRootDirectory>C:\xna\Proyecto Planet Defence\planet-defence\branches\matias\WindowsGame1\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\xna\Proyecto Planet Defence\planet-defence\branches\matias\WindowsGame1\Content\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\xna\Proyecto Planet Defence\planet-defence\branches\matias\WindowsGame1\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

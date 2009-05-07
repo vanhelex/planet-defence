@@ -1,1 +1,2 @@
 Content\MODELOS\planeta.xnb
+Content\MODELOS\Cube.xnb

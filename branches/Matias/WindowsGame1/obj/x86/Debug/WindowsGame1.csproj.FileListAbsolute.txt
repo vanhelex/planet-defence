@@ -11,3 +11,11 @@ C:\xna\Proyecto Planet Defence\planet-defence\branches\matias\WindowsGame1\obj\x
 C:\xna\Proyecto Planet Defence\planet-defence\branches\matias\WindowsGame1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\xna\Proyecto Planet Defence\planet-defence\branches\matias\WindowsGame1\obj\x86\Debug\WindowsGame1.exe
 C:\xna\Proyecto Planet Defence\planet-defence\branches\matias\WindowsGame1\obj\x86\Debug\WindowsGame1.pdb
+C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\bin\x86\Debug\Content\MODELOS\planeta.xnb
+C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\bin\x86\Debug\Content\MODELOS\Cube.xnb
+C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\bin\x86\Debug\WindowsGame1.exe
+C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\bin\x86\Debug\WindowsGame1.pdb
+C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\obj\x86\Debug\WindowsGame1.exe
+C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\obj\x86\Debug\WindowsGame1.pdb

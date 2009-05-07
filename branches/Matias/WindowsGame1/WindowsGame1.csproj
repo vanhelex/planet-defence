@@ -85,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LOGICA\Dibujable.cs" />
+    <Compile Include="LOGICA\Heroe.cs" />
     <Compile Include="LOGICA\Planeta.cs" />
     <Compile Include="LOGICA\Posicion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -20,9 +20,11 @@ namespace WindowsGame1
     public class Game1 : Microsoft.Xna.Framework.Game
     {
         GraphicsDeviceManager graphics;
+        protected KeyboardState oldKeyboardState;
         SpriteBatch spriteBatch;
         Planeta planeta;
-
+        Heroe heroe;
+        Heroe heroe2;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -49,7 +51,10 @@ namespace WindowsGame1
         {
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            planeta = new Planeta(Content.Load<Model>("MODELOS/planeta"), graphics);
+            planeta = new Planeta(Content.Load<Model>("MODELOS/planeta"));
+            heroe = new Heroe(Content.Load<Model>("MODELOS/Cube"));
+            heroe2 = new Heroe(Content.Load<Model>("MODELOS/Cube"));
+
             // TODO: use this.Content to load your game content here
         }
 
@@ -74,7 +79,10 @@ namespace WindowsGame1
                 this.Exit();
 
             // TODO: Add your update logic here
-
+            HandleActionInput();
+            
+            //heroe.rotacion.Y += 0.01f;
+            //heroe.escala += (float)Math.Sin(gameTime.TotalGameTime.TotalSeconds)/1000;
             base.Update(gameTime);
         }
 
@@ -84,11 +92,65 @@ namespace WindowsGame1
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
+            //Update(gameTime);
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
-            planeta.paint();
+            planeta.paint(graphics);
+            heroe.paint(graphics);
+            heroe2.paint(graphics);
+
             base.Draw(gameTime);
+        }
+        private void HandleActionInput()
+        {
+            // Get the Keyboard and GamePad state
+            KeyboardState keyboardState = Keyboard.GetState();
+
+            oldKeyboardState = keyboardState;
+
+
+            KeyboardState keyboard = Keyboard.GetState();
+
+            #region Player1
+            if (keyboard.IsKeyDown(Keys.Up))
+            {
+                heroe.rotacion.X -= heroe.velocidad;
+            }
+            if (keyboard.IsKeyDown(Keys.Down))
+            {
+                heroe.rotacion.X += heroe.velocidad;
+            }
+            if (keyboard.IsKeyDown(Keys.Left))
+            {
+                heroe.rotacion.Y -= heroe.velocidad;
+            }
+            if (keyboard.IsKeyDown(Keys.Right))
+            {
+                heroe.rotacion.Y += heroe.velocidad;
+            }
+            #endregion
+
+            #region Player2
+            if (keyboard.IsKeyDown(Keys.W))
+            {
+                heroe2.rotacion.X -= heroe.velocidad;
+            }
+            if (keyboard.IsKeyDown(Keys.S))
+            {
+                heroe2.rotacion.X += heroe.velocidad;
+            }
+            if (keyboard.IsKeyDown(Keys.A))
+            {
+                heroe2.rotacion.Y -= heroe.velocidad;
+            }
+            if (keyboard.IsKeyDown(Keys.D))
+            {
+                heroe2.rotacion.Y += heroe.velocidad;
+            }
+            #endregion
+
+
         }
     }
 }
