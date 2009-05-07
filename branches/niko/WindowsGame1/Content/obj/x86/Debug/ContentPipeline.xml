@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>MODELOS\Cube.X</Source>
+      <Name>MODELOS\Cube</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\bin\x86\Debug\Content\MODELOS\Cube.xnb</Output>
+      <Time>2009-05-06T20:50:49.515625-04:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\MODELOS\Cube_0.xml</Key>
+        <Value>2009-05-06T21:12:21.90625-04:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>MODELOS\Cube.X</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\MODELOS\Cube_0.xml</Output>
+      <Time>2009-05-06T20:50:49.515625-04:00</Time>
+    </Item>
+    <Item>
+      <Source>MODELOS\planeta.x</Source>
+      <Name>MODELOS\planeta</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\bin\x86\Debug\Content\MODELOS\planeta.xnb</Output>
+      <Time>2009-05-07T11:14:23.671875-04:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\MODELOS\planeta_1.xml</Key>
+        <Value>2009-05-07T11:14:35.234375-04:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>MODELOS\planeta.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\MODELOS\planeta_1.xml</Output>
+      <Time>2009-05-07T11:14:23.671875-04:00</Time>
+    </Item>
+    <Item>
+      <Source>MODELOS\spaceship.x</Source>
+      <Name>MODELOS\spaceship</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\bin\x86\Debug\Content\MODELOS\spaceship.xnb</Output>
+      <Time>2009-05-07T11:43:33.75-04:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\MODELOS\spaceship_1.xml</Key>
+        <Value>2009-05-07T11:43:45-04:00</Value>
+      </Dependency>
+    </Item>
+    <Item>
+      <Source>MODELOS\spaceship.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\MODELOS\spaceship_1.xml</Output>
+      <Time>2009-05-07T11:43:33.75-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\Content\</RootDirectory>
+      <LoggerRootDirectory>C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Archivos de programa\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2008-10-10T16:42:32-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Archivos de programa\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2008-10-10T16:43:28-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Archivos de programa\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2008-10-10T16:43:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Archivos de programa\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2008-10-10T16:48:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Archivos de programa\Microsoft XNA\XNA Game Studio\v3.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2008-10-10T16:48:50-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\3.0.0.0__6d5c3888ef60e27d\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2009-03-13T17:44:04.90625-03:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
