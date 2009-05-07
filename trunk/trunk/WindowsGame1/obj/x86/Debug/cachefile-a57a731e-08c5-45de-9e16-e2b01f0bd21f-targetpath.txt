@@ -1,3 +1,0 @@
-Content\MODELOS\Cube.xnb
-Content\MODELOS\planeta.xnb
-Content\MODELOS\spaceship.xnb
