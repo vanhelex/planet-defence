@@ -19,3 +19,4 @@ C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\obj\x86\Debug\ResolveAssemblyR
 C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\obj\x86\Debug\WindowsGame1.exe
 C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\obj\x86\Debug\WindowsGame1.pdb
+C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\bin\x86\Debug\Content\MODELOS\spaceship.xnb

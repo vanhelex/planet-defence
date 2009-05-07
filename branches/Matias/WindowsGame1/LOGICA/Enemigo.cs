@@ -10,22 +10,17 @@ using Microsoft.Xna.Framework.Storage;
 
 namespace WindowsGame1.LOGICA
 {
-    class Heroe:Dibujable
+    class Enemigo:Dibujable
     {
-        Posicion mira;
-        float vision;
         public float velocidad;
-
-        public Heroe(Model m)
+        public Enemigo(Model m)
         {
             Modelo = m;
-            pos = new Posicion(0.0f, 0.0f, 0.926f);
-            escala = 0.05f;
+            pos = new Posicion(0.0f, 0.0f, 1.3f);
+            escala = 0.03f;
             rotacion = new Vector3(0.0f, 0.0f, 0.0f);
-            velocidad = 0.04f;
-
+            velocidad = 0.001f;
         }
-
 
         override public void paint(GraphicsDeviceManager g)
         {
@@ -49,8 +44,6 @@ namespace WindowsGame1.LOGICA
                 }
                 mesh.Draw();
             }
-                
         }
-
     }
 }
