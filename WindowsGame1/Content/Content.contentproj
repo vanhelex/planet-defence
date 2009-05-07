@@ -35,15 +35,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MODELOS\planeta.fbx">
-      <Name>planeta</Name>
-      <Importer>FbxImporter</Importer>
+    <Compile Include="MODELOS\Cube.X">
+      <Name>Cube</Name>
+      <Importer>XImporter</Importer>
       <Processor>ModelProcessor</Processor>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MODELOS\Cube.X">
-      <Name>Cube</Name>
+    <Compile Include="MODELOS\planeta.x">
+      <Name>planeta</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MODELOS\spaceship.x">
+      <Name>spaceship</Name>
       <Importer>XImporter</Importer>
       <Processor>ModelProcessor</Processor>
     </Compile>

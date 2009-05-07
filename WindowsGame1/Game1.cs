@@ -25,6 +25,9 @@ namespace WindowsGame1
         Planeta planeta;
         Heroe heroe;
         Heroe heroe2;
+        Enemigo[] enemigos;
+        Enemigo[] enemigos2;
+        public static int cant_enemigos = 50;
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -54,6 +57,20 @@ namespace WindowsGame1
             planeta = new Planeta(Content.Load<Model>("MODELOS/planeta"));
             heroe = new Heroe(Content.Load<Model>("MODELOS/Cube"));
             heroe2 = new Heroe(Content.Load<Model>("MODELOS/Cube"));
+            enemigos = new Enemigo[cant_enemigos];
+            enemigos2 = new Enemigo[cant_enemigos];
+            for(int i = 0; i<cant_enemigos; i++)
+            {
+                enemigos[i] = new Enemigo(Content.Load<Model>("MODELOS/spaceship"));
+                enemigos[i].escala = 0.015f;
+                enemigos[i].rotacion.X = i * (float)Math.PI*2/cant_enemigos;
+                enemigos[i].rotacion.Y = (float)Math.PI/3;
+                
+
+                enemigos2[i] = new Enemigo(Content.Load<Model>("MODELOS/Cube"));
+                enemigos2[i].rotacion.X = i * (float)Math.PI * 2 / cant_enemigos;
+                enemigos2[i].rotacion.Y = (float)(Math.PI*-1) / 3;
+            }
 
             // TODO: use this.Content to load your game content here
         }
@@ -80,10 +97,18 @@ namespace WindowsGame1
 
             // TODO: Add your update logic here
             HandleActionInput();
-            
-            //heroe.rotacion.Y += 0.01f;
-            //heroe.escala += (float)Math.Sin(gameTime.TotalGameTime.TotalSeconds)/1000;
-            base.Update(gameTime);
+            for (int i = 0; i < cant_enemigos;i++ )
+            {
+                enemigos[i].rotacion.X += enemigos[i].velocidad;
+            }
+
+            for (int i = 0; i < cant_enemigos; i++)
+            {
+                enemigos2[i].rotacion.X += enemigos2[i].velocidad;
+            }
+                //heroe.rotacion.Y += 0.01f;
+                //heroe.escala += (float)Math.Sin(gameTime.TotalGameTime.TotalSeconds)/1000;
+                base.Update(gameTime);
         }
 
         /// <summary>
@@ -99,7 +124,10 @@ namespace WindowsGame1
             planeta.paint(graphics);
             heroe.paint(graphics);
             heroe2.paint(graphics);
-
+            for (int i = 0; i < cant_enemigos; i++)
+                enemigos[i].paint(graphics);
+            for (int i = 0; i < cant_enemigos; i++)
+                enemigos2[i].paint(graphics);
             base.Draw(gameTime);
         }
         private void HandleActionInput()
