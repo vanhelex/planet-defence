@@ -20,3 +20,15 @@ C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\obj\x86\Debug\Microsoft.Xna.Fr
 C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\obj\x86\Debug\WindowsGame1.exe
 C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\obj\x86\Debug\WindowsGame1.pdb
 C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\bin\x86\Debug\Content\MODELOS\spaceship.xnb
+C:\Documents and Settings\fsoto\Mis documentos\U\otoño_2009\juegos_multiusuario\svn\trunk\WindowsGame1\bin\x86\Debug\Content\MODELOS\Cube.xnb
+C:\Documents and Settings\fsoto\Mis documentos\U\otoño_2009\juegos_multiusuario\svn\trunk\WindowsGame1\bin\x86\Debug\Content\MODELOS\planeta.xnb
+C:\Documents and Settings\fsoto\Mis documentos\U\otoño_2009\juegos_multiusuario\svn\trunk\WindowsGame1\bin\x86\Debug\Content\MODELOS\spaceship.xnb
+C:\Documents and Settings\fsoto\Mis documentos\U\otoño_2009\juegos_multiusuario\svn\trunk\WindowsGame1\bin\x86\Debug\WindowsGame1.exe
+C:\Documents and Settings\fsoto\Mis documentos\U\otoño_2009\juegos_multiusuario\svn\trunk\WindowsGame1\bin\x86\Debug\WindowsGame1.pdb
+C:\Documents and Settings\fsoto\Mis documentos\U\otoño_2009\juegos_multiusuario\svn\trunk\WindowsGame1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\fsoto\Mis documentos\U\otoño_2009\juegos_multiusuario\svn\trunk\WindowsGame1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Documents and Settings\fsoto\Mis documentos\U\otoño_2009\juegos_multiusuario\svn\trunk\WindowsGame1\obj\x86\Debug\WindowsGame1.exe
+C:\Documents and Settings\fsoto\Mis documentos\U\otoño_2009\juegos_multiusuario\svn\trunk\WindowsGame1\obj\x86\Debug\WindowsGame1.pdb
+C:\Documents and Settings\fsoto\Mis documentos\U\otoño_2009\juegos_multiusuario\svn\trunk\WindowsGame1\bin\x86\Debug\Content\MODELOS\unicorn.xnb
+C:\Documents and Settings\fsoto\Mis documentos\U\otoño_2009\juegos_multiusuario\svn\trunk\WindowsGame1\bin\x86\Debug\Content\MODELOS\spaceAntena.xnb
+C:\Documents and Settings\fsoto\Mis documentos\U\otoño_2009\juegos_multiusuario\svn\trunk\WindowsGame1\bin\x86\Debug\Content\MODELOS\torreta.xnb

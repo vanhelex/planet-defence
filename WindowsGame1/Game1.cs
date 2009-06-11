@@ -23,6 +23,7 @@ namespace WindowsGame1
         protected KeyboardState oldKeyboardState;
         SpriteBatch spriteBatch;
         Planeta planeta;
+        Torre torre;
         Heroe heroe;
         Heroe heroe2;
         Enemigo[] enemigos;
@@ -55,6 +56,7 @@ namespace WindowsGame1
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
             planeta = new Planeta(Content.Load<Model>("MODELOS/planeta"));
+            torre = new Torre(Content.Load<Model>("MODELOS/torreta"));
             heroe = new Heroe(Content.Load<Model>("MODELOS/Cube"));
             heroe2 = new Heroe(Content.Load<Model>("MODELOS/Cube"));
             enemigos = new Enemigo[cant_enemigos];
@@ -122,8 +124,9 @@ namespace WindowsGame1
 
             // TODO: Add your drawing code here
             planeta.paint(graphics);
+            torre.paint(graphics);
             heroe.paint(graphics);
-            heroe2.paint(graphics);
+//            heroe2.paint(graphics);
             for (int i = 0; i < cant_enemigos; i++)
                 enemigos[i].paint(graphics);
             for (int i = 0; i < cant_enemigos; i++)
@@ -162,19 +165,19 @@ namespace WindowsGame1
             #region Player2
             if (keyboard.IsKeyDown(Keys.W))
             {
-                heroe2.rotacion.X -= heroe.velocidad;
+                torre.rotacion.X -= torre.velocidad;
             }
             if (keyboard.IsKeyDown(Keys.S))
             {
-                heroe2.rotacion.X += heroe.velocidad;
+                torre.rotacion.X += torre.velocidad;
             }
             if (keyboard.IsKeyDown(Keys.A))
             {
-                heroe2.rotacion.Y -= heroe.velocidad;
+                torre.rotacion.Y -= torre.velocidad;
             }
             if (keyboard.IsKeyDown(Keys.D))
             {
-                heroe2.rotacion.Y += heroe.velocidad;
+                torre.rotacion.Y += torre.velocidad;
             }
             #endregion
 

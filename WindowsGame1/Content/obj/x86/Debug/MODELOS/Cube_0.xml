@@ -3,7 +3,7 @@
   <Asset Type="Graphics:NodeContent">
     <Name>Box01</Name>
     <Identity>
-      <SourceFilename>C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\Content\MODELOS\Cube.X</SourceFilename>
+      <SourceFilename>C:\Documents and Settings\fsoto\Mis documentos\U\otoño_2009\juegos_multiusuario\svn\trunk\WindowsGame1\Content\MODELOS\Cube.X</SourceFilename>
       <SourceTool>XImporter</SourceTool>
     </Identity>
     <Transform>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</Transform>
