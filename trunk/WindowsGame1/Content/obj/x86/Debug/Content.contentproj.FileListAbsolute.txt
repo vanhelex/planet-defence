@@ -1,3 +1,4 @@
 C:\xna\Proyecto Planet Defence\Planet Defence\WindowsGame1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\xna\Proyecto Planet Defence\planet-defence\branches\matias\WindowsGame1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\xna\Proyecto Planet Defence\Trunk\WindowsGame1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\fsoto\Mis documentos\U\otoño_2009\juegos_multiusuario\svn\trunk\WindowsGame1\Content\obj\x86\Debug\ResolveAssemblyReference.cache
